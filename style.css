@@ -1,0 +1,32 @@
+.dark{
+    margin:0;
+}
+
+div.dark{
+    margin-bottom:10px;
+}
+footer.dark{
+    margin-top:10px;
+}
+
+section.container{
+    margin-top: 5px;
+}
+
+.input_1{
+  width: 80vw;
+  }
+
+@media (max-width:768px) {
+    .input_1{
+        width:60vw;
+    }
+}
+
+@media (max-width:578px) {
+    .form-field button{
+        margin-left: 35%;
+        margin-top: 10px;
+    }
+}
+

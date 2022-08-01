@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Delvs.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="dark ">
+        <div class="container d-sm-flex justify-content-between align-items-center">
+            <h1>PayDom To Do List</h1> 
+            <button  type="button" class="btn btn-outline-danger btn-sm">
+                Delete
+            </button>
+        </div>
+    </div>
+    
+    <!-- list area -->
+    <section class="container">
+        <form action="" id="signup" class='form'>
+            <div class="d-sm-flex justify-content-between align-items-center">
+                <div class="form-field">
+                    <input type="text" name="text" id="text" placeholder="Write Your List" class="input_1">
+                </div>
+                <div class="form-field">
+                    <button type="submit" name="Add" id="Add" class="btn btn-outline-success btn-sm ">Add</button>
+                </div>
+            </div>
+        </form>
+        <small></small>
+        <ol id="list">
+        </ol>
+    </section>
+
+    <footer class="fixed-footer dark">
+        <div class="container d-sm-flex justify-content-around align-items-center ">
+            <h4>Powered by DaveInventionary </h4>
+            <p>copyright &copy;</p>
+        </div>
+        
+    </footer>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
